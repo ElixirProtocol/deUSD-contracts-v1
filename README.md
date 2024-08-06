@@ -34,10 +34,6 @@ See the deUSD documentation for more information.
 </tr>
 </table>
 
-## Documentation
-
-You can find the technical documentation and references of the smart contracts [here](docs/docs.md).
-
 ## Usage
 
 You will need a copy of [Foundry](https://github.com/foundry-rs/foundry) installed before proceeding. See the [installation guide](https://github.com/foundry-rs/foundry#installation) for details.
