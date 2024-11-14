@@ -561,4 +561,18 @@ contract stdeUSDTest is Test {
         assertApproxEqAbs(bobsdeUSDBal, bobsdedeUSDxpectedBal, 1e9);
         assertTrue(bobsdeUSDBal > 0);
     }
+
+    function testInitializeWithInvalidZeroAddress() public {
+        stdeUSD revTest = new stdeUSD();
+        vm.expectRevert(IstdeUSD.InvalidZeroAddress.selector);
+        new ERC1967Proxy(
+            address(revTest),
+            abi.encodeWithSignature(
+                "initialize(address,address,address)",
+                IERC20(address(0)), 
+                rewarder,
+                owner
+            )
+        );
+    }
 }
