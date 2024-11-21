@@ -646,6 +646,7 @@ contract deUSDMintingACLTest is deUSDMintingUtils {
     }
 
     function testCorrectInitConfig() public {
+        vm.prank(owner);
         deUSDMinting deUSDMinting2 = deUSDMinting(
             payable(
                 address(
