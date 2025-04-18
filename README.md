@@ -20,7 +20,7 @@ See the deUSD documentation for more information.
 <th>deUSDMinting</th>
 <th>deUSDSilo</th>
 <th>StakingRewardsDistributor</th>
-<th>stdeUSD</th>
+<th>sdeUSD</th>
 </tr>
 <tr>
 <td>Ethereum Mainnet (production)</td>
@@ -29,7 +29,7 @@ See the deUSD documentation for more information.
 <td><code>0xC7963974280261736868f962e3959Ee1E1B99712</code></td>
 <td><code>0x69088d25a635D22dcbe7c4A5C7707B9cc64bD114</code></td>
 <td><code>0x4595C32720718fe0E4047B2683E255515123148a</code></td>
-<td><code>N/A</code></td>
+<td><code>0xa7E2119AB6994cCD01A63d8b9fd8B5a48828069a</code></td>
 <td><code>0x5C5b196aBE0d54485975D1Ec29617D42D9198326</code></td>
 </tr>
 </table>
